@@ -14,9 +14,11 @@ if (firstWord.length == 0 || secondWord.length == 0){
 }
 
 if (firstWord.length > secondWord.length && boolean){
-    console.log(`La più corta: ${secondWord} La più lunga: ${firstWord}`);
+    console.log(`La più corta: ${secondWord}`)
+    console.log(`La più lunga: ${firstWord}`) 
 } else if (firstWord.length < secondWord.length && boolean){
-    console.log(`La più corta: ${firstWord} La più lunga: ${secondWord}`)
+    console.log(`La più corta: ${firstWord}`)
+    console.log(`La più lunga: ${secondWord}`) 
 } else if (firstWord.length == secondWord.length && boolean){
     console.log(`Le due parole hanno la stessa lunghezza`)
 } 
