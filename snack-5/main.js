@@ -7,7 +7,7 @@ let oddNumbers = []
 
 for (let i=0; i<6; i++){
     let userNumbers = Number(prompt('Digita un numero:'))
-    if (userNumbers % 2 == 0){
+    if (userNumbers % 2 == 0 && userNumbers !== 0){
         oddNumbers.push(userNumbers)
     }
 }
