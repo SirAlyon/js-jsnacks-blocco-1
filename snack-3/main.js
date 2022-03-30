@@ -22,7 +22,7 @@ console.log(result) */
 let numbers = []
 
 for (i=0; i<=9; i++){
-    numbers.push(prompt("Enter a number"));
+    numbers.push(Number(prompt("Enter a number")));
 }
 
 
@@ -30,7 +30,6 @@ for (i=0; i<=9; i++){
 let sum = 0
 
 for (let i = 0; i < numbers.length; i++) {
-    
     sum += numbers[i]
 }
 
