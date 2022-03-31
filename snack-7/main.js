@@ -4,7 +4,7 @@ for (let i=1; i < Infinity; i++){
     let power = i
     result = Math.pow(myNumber, power)
     console.log(result)
-    if (result>511){
+    if (result > 511){
         break
     }
 }
